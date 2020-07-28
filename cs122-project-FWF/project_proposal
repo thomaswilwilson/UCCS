@@ -1,0 +1,43 @@
+Group Name: WMBA
+Group Members: Tyson Miller, Matthew Auerbach, Jonah Benning-Shorb, Thomas Wilson
+
+We’ve all all been in this situation: you’re with a group of people and can’t decide what food to order. Or maybe every individual knows what they want, but those wants don’t overlap and the group fails to reach consensus. What if there was a way to make everyone happy, such that everyone was able to order what they wanted? Our project aims to do exactly that. Given a list of foods, our program would search postmates for any menu that includes all of the items in the list. Thus, the user would be easily capable of finding all restaurants that include every food item required for the group to reach consensus. 
+
+Our goal for this project is to use the tools and methods that we learned in the first half of the course to create a functioning website that allows users to search local restaurants for specific dishes. Our users will be able to input their location and multiple food items that they are searching for and we will output the best fitting restaurants in their area based on how many of the specified dishes the restaurant’s menu has. This will require: crawling and scraping for the restaurant's menu and food descriptions, creating a database with those descriptions, and then matching their requests with words in the item descriptions to produce a restaurant that is a best-fit.
+
+Data Sources:
+Our datasource for this project will be the postmates website, which we will crawl through much like we did the uchicago course website on PA #2. We will then extract all of the menu items for every restaurant in the delivery area of the user and create our own database containing all the restaurants and their dishes. Then, using that database, we will provide best-fit matches based on their requests. 
+
+List of Tasks: 
+
+1) Search postmates to find all restaurants that deliver to a location
+-Have the user input an address to search on postmates
+-Make sure they entered an actual address we can search on postmates
+-Make sure there are restaurants which are open and deliver to the address
+-Use address to find all restaurants
+-Use web scraping to get a list of all of the restaurant’s urls of to crawl
+-Ensure only restaurants which serve food, not grocery stores, liquor stores or anything else is selected
+-Ensure every restaurant available restaurant is on the list
+-Ensure every restaurant on the list is available to deliver
+
+2) Crawl menus for items and their descriptions
+-Use web scraping to create an index mapping the restaurant to items on their menu
+-Use the menu items’ categories, names, descriptions and special instructions to add to the index
+-Try to only add relevant words to index, not words like “includes”, “new”, “the”, etc
+-Some items use multiple words, ie “sour cream”, “cold cut”, “egg roll”, so we will have to find some way to be able to include these items
+-Don’t have multiple entries for a single item, “taco” and “tacos” should be indexed as the same item, as well as “hamburger” and “burger”
+-Some items may be the same but under different entries, such as “cheese steak,” “philly steak” and “steak & cheese,” it is impossible to predict and solve this problem every time it occurs, a restaurant can always come up with a new name for the same item
+
+3) Create database of these locations
+-Using our index, we will use SQL to create a database of restaurants and items that they serve
+-Normalization/data munging issues described in the crawling step may be better handled through the database, such as combining taco and tacos to be the same item
+-How we structure the database will be determined by what problems are easier to address in the database than while crawling
+
+4) Scanning menu items
+-We will search each menu item in the database for matches with each input menu item.
+-Search tool will review all terms for matches and then store the restaurants where the search is reasonably close to an offering. 
+
+5) Relativity Index
+-Score the restaurants to output a ranked list of best options
+-Create algorithm that will  most heavily be dependent on the restaurant with the greatest number of matches (assuming that sometimes there will be occasions when none of the restaurants are perfect matches)
+-To complexify this algorithm, we will also include overall restaurant rating and the rating of each dish, if it is possible

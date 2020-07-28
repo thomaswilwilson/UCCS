@@ -1,0 +1,99 @@
+1552160417588	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.ExPDZZN1Bhnf"
+1552160425532	Marionette	INFO	Listening on port 46146
+1552160425771	Marionette	WARN	TLS certificate errors will be ignored for this session
+1552160426329	Marionette	DEBUG	[2147483649] Frame script loaded
+1552160426365	Marionette	DEBUG	[2147483649] Frame script registered
+1552160451587	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.B9OOOShql9Xl"
+1552160460870	Marionette	INFO	Listening on port 45077
+1552160461143	Marionette	WARN	TLS certificate errors will be ignored for this session
+1552160461558	Marionette	DEBUG	[2147483649] Frame script loaded
+1552160461563	Marionette	DEBUG	[2147483649] Frame script registered
+1552160630545	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.4pKk7koVRPCN"
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 8580, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-8oo9jx/firefox-62.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 8524, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-8oo9jx/firefox-62.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1552160715038	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.h2XEfyqYijHf"
+1552160720266	Marionette	INFO	Listening on port 40582
+1552160720331	Marionette	WARN	TLS certificate errors will be ignored for this session
+1552160720697	Marionette	DEBUG	[2147483649] Frame script loaded
+1552160720705	Marionette	DEBUG	[2147483649] Frame script registered
+1552160747434	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1552160748024	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1552160750859	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://postmates.com/
+1552160774726	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483660
+1552160775122	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://postmates.com/
+1552160928336	Marionette	DEBUG	[2147483672] Frame script loaded
+1552160928422	Marionette	DEBUG	[2147483672] Frame script registered
+
+###!!! [Parent][DispatchAsyncMessage] Error: PClientHandle::Msg_PClientHandleOpConstructor Route error: message sent to unknown actor ID
+
+1552160928586	Marionette	DEBUG	[2147483674] Frame script loaded
+1552160928592	Marionette	DEBUG	[2147483674] Frame script registered
+console.warn: LoginRecipes: getRecipes: falling back to a synchronous message for: https://postmates.com
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:711:13
+
+1552163250732	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.YfHZbjTAOBlz"
+1552163264120	Marionette	INFO	Listening on port 44364
+1552163264269	Marionette	WARN	TLS certificate errors will be ignored for this session
+1552163264742	Marionette	DEBUG	[2147483649] Frame script loaded
+1552163264808	Marionette	DEBUG	[2147483649] Frame script registered
+1552163345133	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.FtJNyX0uwZ0T"
+1552163352078	Marionette	INFO	Listening on port 35029
+1552163352335	Marionette	WARN	TLS certificate errors will be ignored for this session
+1552163352583	Marionette	DEBUG	[2147483649] Frame script loaded
+1552163352598	Marionette	DEBUG	[2147483649] Frame script registered
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:711:13
+
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:711:13
+
+1552231508120	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.PENLPs8vAkCp"
+1552231713438	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.OtP2xb71mKZK"
+[Child 8070, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /build/firefox-8oo9jx/firefox-62.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 726
+[Child 8070, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /build/firefox-8oo9jx/firefox-62.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 726
+[Child 8070, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /build/firefox-8oo9jx/firefox-62.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 726
+[Child 8070, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /build/firefox-8oo9jx/firefox-62.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 726
+[Child 8070, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /build/firefox-8oo9jx/firefox-62.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 726
+[Child 8070, Chrome_ChildThread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /build/firefox-8oo9jx/firefox-62.0+build2/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 22
+[Child 8070, Chrome_ChildThread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /build/firefox-8oo9jx/firefox-62.0+build2/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 22
+1552337536821	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.DWjCbfciQMx7"
+1552337552072	Marionette	INFO	Listening on port 44086
+1552337552270	Marionette	WARN	TLS certificate errors will be ignored for this session
+1552337552528	Marionette	DEBUG	[2147483649] Frame script loaded
+1552337552548	Marionette	DEBUG	[2147483649] Frame script registered
+1552337552989	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1552337554924	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1552337560692	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://postmates.com/
+1552337572689	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483656
+1552337572910	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483658
+1552337573122	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://postmates.com/
+1552337573635	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for https://postmates.com/
+1552337574975	Marionette	DEBUG	[2147483649] Received DOM event pagehide for https://postmates.com/
+1552337574998	Marionette	DEBUG	[2147483649] Received DOM event unload for https://postmates.com/
+1552337575479	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483653
+1552337575482	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483666
+1552337575483	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483661
+1552337575493	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483671
+1552337575651	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://postmates.com/
+1552337586011	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483678
+1552337586369	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483680
+1552337586758	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://postmates.com/
+1552337587937	Marionette	INFO	Stopped listening on port 44086

@@ -1,0 +1,26 @@
+servesCusine,state,name,maxDeliveryTime,streetAddress,minDeliveryTime,postalCode
+Sandwich,IL,Subway,45,1400 E 53rd St ,25,60615
+Thai,IL,Thai 55,45,1607 E 55th St,25,60615
+Japanese,IL,Kikuya Japanese Restaurant,45,1601 E 55th St,25,60615
+Korean,IL,Cafe Corea,45,1603 E 55th St,25,60615
+Pho,IL,Pho 55,45,1611 E 55th St,25,60615
+Indian,IL,Rajun Cajun,45,1459 E 53rd St,25,60615
+Asian,IL,Saucy Porka Hyde Park,45,1164 E 55th St,25,60615
+Coffee,IL,Cafe 53,45,1369 E 53rd St,25,60615
+Mediterranean,IL,Maggies Gyros,45,349 E 47th St,25,60653
+Fast Food,IL,Pockets Hyde Park & Kingoberry Frozen Yogurt,45,1307 E 53rd St,25,60615
+Mediterranean,IL,Cedar's Mediterranean Kitchen,45,1206 E 53rd St,25,60615
+American,IL,Nathan's Chicago Style,45,1372 E 53rd St,25,60615
+Burger,IL,Jimmy's Famous Burgers,45,5042 S Cottage Grove Ave,25,60615
+American,IL,Golden Fish and Chicken,45,4457 S Cottage Grove Ave,25,60653
+Pizza,IL,Papa John's Pizza,45,1418 E 53rd St,25,60615
+Fast Food,IL,Checkers,45,5451 S Wentworth Ave,25,60609
+Chinese,IL,New Grand Chinese Kitchen,45,5401 S Wentworth Ave,25,60609
+Pizza,IL,Italian Fiesta Pizzeria,45,1306 E 47th St,25,60653
+Chinese,IL,Dragon Bowl,45,220 W 31st St,25,60616
+Mexican,IL,La Mexicana Taqueria,45,815 W 35th St,25,60609
+Asian,IL,Strings Ramen Shop,45,2141 S Archer Ave,25,60616
+Chinese,IL,Emperor's Choice,45,2238 S Wentworth Ave,25,60616
+Coffee,IL,Dunkin' Donuts,45,1418 E 53rd St,25,60615
+American,IL,Red Snapper,45,1418 E 53rd St,25,60615
+BBQ,IL,Porkchop,45,1516 E Harper Ct,25,60615
